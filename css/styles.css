@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	font-family: Aria, sans-serif;
+	line-height: 1.5;
+	text-align: center;
+	background-color:#fafafa;
+}
+
+.row{
+	pading-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+/* NAVIGATION */
+
+
+
+#top{
+	padding-top: 0;
+	padding-bottom: 15%;
+	width: 100%;
+	bakcground-postion: absolute;
+	background-image: url("https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&dpr=2&w=500");
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	z-index: -1;
+}
+
+	.navbar{
+		padding-top: 15px;
+		padding-left: 20px;
+		padding-right: 30px;
+		padding-bottom: 0;
+		color: #fff;
+		font-size: 1.4em;
+
+	}
+
+	nav li{
+		padding-right: 30px;
+
+	}
+
+/*Heading*/
+#hello .heading{
+	padding-bottom: 20px;
+}
+#hello h1{
+	color:#fff;
+	font-family: 'Roboto Mono', monospace;
+	padding-bottom: 5px;
+}
+
+/*PORTFOLIO*/
+#portfolio{
+	background-color: #fafafa;
+	padding: 5% 15%;
+	text-align:center;
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+		#portfolio h1{
+			padding-bottom: 20px;
+			font-weight: bold;
+		}
+		#portfolio h2{
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		#portfolio p{
+			font-size: 1.4em;
+			font-family: 'Merriweather', serif;
+
+		}
+		#portfolio img{
+			width: 100%;
+			border-radius: 10%;
+
+		}
+
+		#portfolio .port{
+			padding-bottom: 30px;
+		}
+
+		.portPic{
+			padding-top: 5%;
+			width:70%;
+
+		}
+
+/*SKILLS*/
+
+#skills{
+	background-color: #252525;
+	color: #fafafa;
+	padding: 5% 15%;
+	text-align:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
