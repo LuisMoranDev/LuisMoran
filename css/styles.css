@@ -13,6 +13,7 @@ body{
 
 
 
+
 /* NAVIGATION */
 
 
@@ -58,6 +59,12 @@ body{
 	font-family: 'Roboto Mono', monospace;
 	padding-bottom: 5px;
 }
+#hello h2{
+	color:#fff;
+	font-family: 'Roboto Mono', monospace;
+	padding-bottom: 5px;
+
+}
 
 /*PORTFOLIO*/
 #portfolio{
@@ -66,6 +73,7 @@ body{
 	padding: 2% 15%;
 	text-align:center;
 	font-family: 'Roboto Mono', monospace;
+	
 
 }
 
@@ -73,35 +81,27 @@ body{
 			padding-bottom: 20px;
 			font-weight: bold;
 		}
-		#portfolio h2{
-			font-weight: bold;
-			text-decoration: underline;
-		}
+
 		#portfolio p{
-			font-size: 1.4em;
 			font-family: 'Merriweather', serif;
 
 		}
 
-		#portfolio img{
-			width: 90%;
+		.port{
+			padding: 3% 2%;
+
+		}
+		.port img{
+			height: 300px;
+			object-fit:cover;
 		}
 
 	
 
-		#portfolio .port{
-			padding-bottom: 5px;
-		}
-
-		.portPic{
-			padding-top: 5%;
+		
 
 
-		}
-
-		.pro{
-			padding: 2% 2%;
-		}
+	
 
 /*SKILLS*/
 
@@ -164,6 +164,7 @@ body{
 }
 .fas.fa-graduation-cap{
 	color:#f6f078;
+	font-size: 1.5;
 }
 
 /*Contact*/
@@ -190,13 +191,17 @@ body{
 
 
 @media only screen and (max-width: 990px){
-							#portfolio img{
-								width: 100%;
-								
-							}
+							
 
 							.list-group{
 								padding: 0;
+							}
+
+							#portfolio .port{
+								padding-bottom: 15px;
+								}
+							.port img{
+								height: auto;
 							}
 							
 						}
@@ -204,6 +209,9 @@ body{
 		#top img{
 			height: 100px;
 			width: 100px;
+		}
+		#portfolio .port{
+			padding-bottom: 15px;
 		}
 
 	}
@@ -222,6 +230,10 @@ body{
 			font-size: 1em;
 		}
 
+		#portfolio .port{
+			padding-bottom: 15px;
+		}
+
 		#workExp  li{
 			font-weight: normal;
 		}
@@ -229,8 +241,11 @@ body{
 			height: 100px;
 			width: 100px;
 		}
+		#education h1{
+			font-size:.7em;
+		}
 		#education h2{
-			font-size: 1em;
+			font-size: .5em;
 		}
 		#contact{
 			padding: 1% 10%;
