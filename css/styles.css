@@ -181,11 +181,15 @@ body{
 		padding-bottom:10px;
 	}
 
-	a:link{
+	#contact a:link{
 		text-decoration: none;
 		color:#fafafa;
 	}
-	a:hover{
+	#contact a:visited{
+		text-decoration:none;
+		color: #fafafa;
+	}
+	#contact a:hover{
 		color:#64b2cd;
 	}
 
