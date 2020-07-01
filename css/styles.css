@@ -20,18 +20,19 @@ body{
 
 #top{
 	padding-top: 0;
-	padding-bottom: 5%;
+	padding-bottom: 20px;
 	width: 100%;
-	background-postion: absolute;
+	background-color: #07031a;
+	/* background-postion: absolute;
 	background-image: url("https://images.pexels.com/photos/247791/pexels-photo-247791.png?auto=compress&cs=tinysrgb&dpr=2&w=500");
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.9;
-	z-index: -1;
+	z-index: -1; */
 }
 
 	.navbar{
-		padding-top: 15px;
+		padding-top: 5px;
 		padding-left: 20px;
 		padding-right: 30px;
 		padding-bottom: 0;
@@ -52,7 +53,7 @@ body{
 
 /*Heading*/
 #hello .heading{
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 }
 #hello h1{
 	color:#fff;
@@ -100,7 +101,7 @@ body{
 /*SKILLS*/
 
 #skills{
-	background-color: #252525;
+	background-color: #07031a;
 	color: #fafafa;
 	padding: 2% 15%;
 	text-align:center;
@@ -164,7 +165,7 @@ body{
 /*Contact*/
 
 #contact{
-	background-color:#252525 ;
+	background-color:#07031a;
 	color:#fafafa;
 	padding: 2% 15%;
 	text-align:center;
